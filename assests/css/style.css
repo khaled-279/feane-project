@@ -76,6 +76,7 @@
 
 .land h1 {
   font-family: "Dancing Script", cursive;
+  font-size: 45px;
 }
 
 .land p {
@@ -352,4 +353,21 @@ form input {
   text-align: center;
   margin-top: 8px;
 }
+/* تعديل بعض الاحجام  */
+@media (max-width: 767px) {
+  .img-box {
+    margin-left: 91px;
+    margin-top: 15px;
+  }
+  .card-body {
+    margin-left: 91px;
+  }
+  .burger-box img {
+    height: 454px;
+  }
+  .footer {
+    height: 100%;
+  }
+}
+
 /* End My project */
